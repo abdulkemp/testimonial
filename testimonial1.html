@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--links-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body class="bg-secondary">
+    <!--navbar menu-->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Abdul Azeez Kemp</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu Bar</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--carousel-->
+    <div class="container-lg my-5">
+        <h1 class="name">Jujutsu Kaisen<img src="./jujutsu-kaisen-high-red-logo-png-image-11660427775aktu2azjjv.png" alt="logo" height="40" class="logo"></h1>
+    <div class="container">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="./image1.jpg" class="d-block w-100" height="500">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Itadori</h4>
+              <p>Fictional character and the main protagonist in Jujutsu Kaisen.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./image2.jpg" class="d-block w-100" height="500">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Satoru Gojo</h4>
+              <p>Saturo Gojo is the strongest character in Jujutsu Kaisen</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./image3.jpg" class="d-block w-100" height="500">
+            <div class="carousel-caption d-none d-md-block">
+              <H4>Sukuna</H4>
+              <p>Ryomen Sukuna, also known as the King of Curses, is the overarching antagonist in Jujutsu Kaisen.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./image4.jpg" class="d-block w-100" height="500">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Jujutsu Kaisen</h4>
+              <p>Main characters in Jujutsu Kaisen</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!--list-->
+    <br>
+    <br>
+    <br>
+    <section>
+      <ul class="list-group w-75 mx-auto">
+        <li class="list-group-item"><button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+          Yuji Itadori
+        </button><ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">Yuji Itadori (Japanese: 虎杖悠仁, Hepburn: Itadori Yūji) is a fictional character and the main protagonist of the manga series Jujutsu Kaisen created by Gege Akutami.</ul></li>
+        <li class="list-group-item"><li class="list-group-item"><button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+          Satoru Gojo
+        </button><ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">Satoru Gojo (Japanese: 五条 悟, Hepburn: Gojō Satoru) He is the strongest Jujutsu Sorcerer in the world, even rivalling and surpassing the King of Curses Sukuna himself.</ul></li>
+        <li class="list-group-item"><li class="list-group-item"><button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+          Ryomen Sukuna
+        </button><ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">Ryomen Sukuna (Japanese: 呂蒙スクナ, Hepburn: Ryomen Sukuna) Sukuna was the most powerful cursed spirit to have ever lived, and as such was considered the undisputed "King of Curses."</ul></li>
+        <li class="list-group-item"><li class="list-group-item"><button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+          First year Class
+        </button><ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">Yuji Itadori, Megumi Fushiguro, Nobara Kugisaki and teacher Saturo Gojo, with the King of all curses Ryomen Sukuna</ul></li>
+      </ul>
+    </section>
+    <br>
+    <br>
+    <br>
+    <!--form-->
+    <section>
+      <form class="row g-3 w-75 mx-auto" novalidate action="https://formspree.io/f/mrgdyenn" method="POST">
+        <div class="col-md-4 position-relative">
+          <label for="inputName" class="form-label">First Name</label>
+          <input type="text" name="name" class="form-control" id="inputName" value="" required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <label for="inputName" class="form-label">Last Name</label>
+          <input type="text" name="name" class="form-control" id="inputName" value="" required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputEmail4">@</span>
+            <input type="email" name="email" class="form-control" id="email" aria-describedby="inputEmail4Prepend" required>
+            <div class="invalid-tooltip">
+              Please choose a unique and valid username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 position-relative">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" name="name" class="form-control" id="inputCity" required>
+          <div class="invalid-tooltip">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3 position-relative">
+          <label for="inputState" class="form-label">Province</label>
+          <select class="form-select" name="name" id="inputState" required>
+            <option selected disabled value="">Choose...</option>
+            <option>Western Cape</option>
+          </select>
+          <div class="invalid-tooltip">
+            Please select a valid province.
+          </div>
+        </div>
+        <div class="col-md-3 position-relative">
+          <label for="inputZip" class="form-label">Postal Code</label>
+          <input type="text" name="name" class="form-control" id="inputZip" required>
+          <div class="invalid-tooltip">
+            Please provide a valid postal code.
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit Form</button>
+        </div>
+      </form>
+    </section>
+    <!--styling css-->
+    <style>
+        h1{
+            padding-left: 38%;
+        }
+        .carousel-inner{
+            border-radius: 25px;
+        }
+        .navbar-toggler{
+          padding-right: 10%;
+        }
+        .logo{
+          mix-blend-mode: color;
+        }
+        h4{
+          color: rgb(11, 220, 227);
+          font-size: 30px;
+        }
+        
+        
+        
+    </style>
+    <!--scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
